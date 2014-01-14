@@ -14,14 +14,6 @@
                 "element": {"#": "main"}
             }
         },
-        "button1": {
-            "prototype": "digit/ui/button.reel",
-            "properties": {
-                "element": {"#": "button"},
-                "enabled": true,
-                "label": "Button"
-            }
-        },
         "overlay1": {
             "prototype": "montage/ui/overlay.reel",
             "properties": {
@@ -50,11 +42,12 @@
 <body>
     <div data-montage-id="main" data-montage-skin="light" class="Main">
         <p data-montage-id="text">
-            <div data-montage-id="slot">
-                <div data-montage-id="overlay"></div>
-            </div>
+
         </p>
-        <button data-montage-id="button"></button>
+        <div data-montage-id="slot">
+            <div data-montage-id="overlay"></div>
+        </div>
+        <p></p>
     </div>
 </body>
 </html>
