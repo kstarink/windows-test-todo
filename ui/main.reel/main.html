@@ -2,21 +2,50 @@
 <html>
 <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
-    <title>Main</title>
-
+    <title>
+        Main
+    </title>
     <link rel="stylesheet" type="text/css" href="main.css">
-
     <script type="text/montage-serialization">
-        {
-            "owner": {
-                "properties": {
-                    "element": {"#": "main"}
-                }
+    {
+        "owner": {
+            "prototype": "ui/main.reel",
+            "properties": {
+                "element": {"#": "main"}
+            }
+        },
+        "overlay1": {
+            "prototype": "montage/ui/overlay.reel",
+            "properties": {
+                "element": {"#": "overlay"}
+            }
+        },
+        "rangeController1": {
+            "prototype": "montage/core/range-controller"
+        },
+        "test slot": {
+            "prototype": "montage/ui/slot.reel",
+            "properties": {
+                "element": {"#": "slot"}
+            }
+        },
+        "text1": {
+            "prototype": "montage/ui/text.reel",
+            "properties": {
+                "element": {"#": "text"},
+                "value": "Todo App"
             }
         }
+    }
     </script>
 </head>
 <body>
-    <div data-montage-id="main" data-montage-skin="light" class="Main"></div>
+    <div data-montage-id="main" data-montage-skin="light" class="Main">
+        <p data-montage-id="text">
+            <div data-montage-id="slot">
+                <div data-montage-id="overlay"></div>
+            </div>
+        </p>
+    </div>
 </body>
 </html>
