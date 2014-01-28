@@ -1,5 +1,5 @@
 {
-    "name": "newtest-test-todo",
+    "name": "rename-test-todo",
     "version": "0.1.0",
     "dependencies": {
         "montage": "~0.13.2",
