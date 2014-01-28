@@ -12,5 +12,8 @@
         "run-tests.html",
         "test"
     ],
-    "license": "kfjgkdf"
+    "license": "kfjgkdf",
+    "author": {
+        "name": "dfd"
+    }
 }
