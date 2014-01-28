@@ -16,5 +16,11 @@
     "author": {
         "name": "dfd"
     },
-    "description": "dfdd"
+    "description": "dfdd",
+    "maintainers": [
+        {
+            "name": "Kristie",
+            "email": "kristiespam@starink.com"
+        }
+    ]
 }
